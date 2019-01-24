@@ -27,14 +27,8 @@ that we have not directly included in this repository. To run
 these scripts locally, you will need:
 
 1) An indexed Plasmodium genome for use in BWA alignment
-Use BWA version 0.7.3
+Use BWA version XXX
 Replace all instances of /net/noble/vol1/data/bwa-indices/pfal3D7-PlasmoDBv29/pfal3D7-PlasmoDBv29
 with the appropriate path to your local indexed Plasmodium genome.
-
-2) The plasmodium genome in fasta format. 
-Replace all instances of "/net/noble/vol1/data/reference_genomes/pfal3D7-PlasmoDBv29/PlasmoDB-29_Pfalciparum3D7_Genome.fasta"
-with the path to your local copy of the P. falciparum genome, v29 on PlasmoDB
-
-
 
 

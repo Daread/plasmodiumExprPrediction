@@ -1,0 +1,24 @@
+# 1-order Markov frequencies from file /net/noble/vol1/data/reference_genomes/pfal3D7-PlasmoDBv29/PlasmoDB-29_Pfalciparum3D7_Genome.fasta
+# seqs: 16    min: 5967    max: 3291936    avg: 1458302.4    sum: 23332839    alph: DNA
+# order 0
+A 4.033e-01
+C 9.670e-02
+G 9.670e-02
+T 4.033e-01
+# order 1
+AA 1.616e-01
+AC 3.478e-02
+AG 3.175e-02
+AT 1.752e-01
+CA 4.355e-02
+CC 1.423e-02
+CG 7.171e-03
+CT 3.175e-02
+GA 3.867e-02
+GC 9.023e-03
+GG 1.423e-02
+GT 3.478e-02
+TA 1.595e-01
+TC 3.867e-02
+TG 4.355e-02
+TT 1.616e-01
