@@ -1,0 +1,6 @@
+,chroms1_3_13;LR;,chroms2_9_11;LR;,chroms7_14;LR;,chroms1_3_13;LT;,chroms2_9_11;LT;,chroms7_14;LT;,chroms1_3_13;LS;,chroms2_9_11;LS;,chroms7_14;LS;
+max_depth,5.0,4.0,4.0,6.0,5.0,4.0,4.0,4.0,8.0
+min_child_weight,4.0,6.0,5.0,6.0,2.0,6.0,6.0,4.0,5.0
+subsample,0.4,0.4,0.4,0.3,0.8,1.0,0.7,0.7,0.4
+colsample_bylevel,0.3,1.0,1.0,0.3,0.5,1.0,0.5,1.0,0.7
+n_estimators,80.0,60.0,80.0,80.0,80.0,40.0,100.0,60.0,60.0

@@ -1,0 +1,13 @@
+Mean Nucleosome Occupancy: Promoter
+Mean Nucleosome Occupancy: Gene_Body
+Mean bartfaiH3K4me3: Promoter
+Mean bartfaiH3K4me3: Gene_Body
+Mean H3K9Ac: Promoter
+Mean H3K9Ac: Gene_Body
+Mean H2Az: Promoter
+Mean H2Az: Gene_Body
+Mean GC Content: Promoter
+Mean GC Content: Gene_Body
+distToTelomeres
+distToCentromeres
+distToCenter

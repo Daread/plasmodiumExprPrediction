@@ -1,0 +1,8 @@
+1. preprocesssing.py is used to decompose raw csv files into feature matrix X.csv (n x p) and label vector Y.csv (n x 1)
+
+2. genKnock.R is used to generate the feature+knockoff matrix X_knockoff.csv (n x 2p) 
+
+3. run_noKnockoff.py and run_withKnockoff.py use DeepPINK to train the data. The only difference is the input. The run_withKnockoff.py takes the feature+knockoff matrix  (n x 2p) as input, whereas the run_noKnockoff.py takes takes the feature matrix X.csv (n x p) as input but make a duplicate copy to guarantee the input dimensionality is still n x 2p
+
+4. eval.py selects the features and calculates the feature importance.
+
