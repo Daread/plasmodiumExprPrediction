@@ -1,0 +1,23 @@
+Late Ring Splits
+6_8_10 (test fold 1) from 0 to 684
+4_5_12 (test fold 2) from 685 to 1395
+1_3_13 (training fold 1) from 1396 to 2103
+2_9_11 (training fold 2) from 2104 to 2804
+7_14 (training fold 3) from 2805 to 3508
+
+ 
+Late Trophozoite Splits 
+6_8_10 (test fold 1) from 0 to 684
+4_5_12 (test fold 2) from 685 to 1396
+1_3_13 (training fold 1) from 1397 to 2103
+2_9_11 (training fold 2) from 2104 to 2806
+7_14 (training fold 3) from 2807 to 3509
+
+ 
+Late Schizont Splits
+6_8_10 (test fold 1) from 0 to 684
+4_5_12 (test fold 2) from 685 to 1395
+1_3_13 (training fold 1) from 1396 to 2103
+2_9_11 (training fold 2) from 2104 to 2804
+7_14 (training fold 3) from 2805 to 3508
+Writing ./featureAndResponseFiles/fullFiveFolds/fullDataLS.csv
