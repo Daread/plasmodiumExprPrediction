@@ -1,5 +1,4 @@
-The datasets used in "Predicting gene expression in the human malaria parasite Plasmodium falciparum"
-are available within the "modelData" folder.
+The datasets used in "Predicting gene expression in the human malaria parasite Plasmodium falciparum" are available within the "modelData" folder.
 
 There are csv files with features/labels for the three stages that were analyzed in the paper. The "Response" column at the end of each csv is the expression label ("Low" or "High") which was the value we sought to predict throughout our work. The rest of the columns are feature values that were used for making model predictions.
 
@@ -11,17 +10,12 @@ Finally, "modelData" includes a text file detailing the train/test splits. For e
 
 -----------------------------------
 
-Additional files in this repository represent the code used to 
-process data and carry out analysis in "Predicting gene 
-expression in the human malaria parasite Plasmodium falciparum"
+Additional files in this repository represent the code used to process data and carry out analysis in "Predicting gene expression in the human malaria parasite Plasmodium falciparum"
 
 Shell scripts run within the "dataPreProcessing" subdirectory used the command
 echo "source ~/myenv.sh" >> $(a).job;
-or similar commands. The file ~/myenv.sh contained instructions
-for which software/versions to load before running the specified job
-file. These instructions are specific to your computing environment.
-Anytime "source ~/myenv.sh" is run, you need to have the following
-software/versions loaded:
+or similar commands. The file ~/myenv.sh contained instructions for which software/versions to load before running the specified job file. These instructions are specific to your computing environment.
+Anytime "source ~/myenv.sh" is run, you need to have the following software/versions loaded:
 python 2.7.3
 numpy 1.11.0
 pandas 0.18.1
@@ -35,18 +29,14 @@ fastx-toolkit 0.0.14
 pysam 0.8.4
 curl 7.48.0
 
-A number of the scripts contained here require reference datasets
-that we have not directly included in this repository. To run
-these scripts locally, you will need:
+A number of the scripts contained here require reference datasets that we have not directly included in this repository. To run these scripts locally, you will need:
 
-1) An indexed Plasmodium genome for use in BWA alignment
+1) An indexed Plasmodium genome for use in BWA alignment.
 Use BWA version 0.7.3
-Replace all instances of /net/noble/vol1/data/bwa-indices/pfal3D7-PlasmoDBv29/pfal3D7-PlasmoDBv29
-with the appropriate path to your local indexed Plasmodium genome.
+Replace all instances of /net/noble/vol1/data/bwa-indices/pfal3D7-PlasmoDBv29/pfal3D7-PlasmoDBv29 with the appropriate path to your local indexed Plasmodium genome.
 
 2) The plasmodium genome in fasta format. 
-Replace all instances of "/net/noble/vol1/data/reference_genomes/pfal3D7-PlasmoDBv29/PlasmoDB-29_Pfalciparum3D7_Genome.fasta"
-with the path to your local copy of the P. falciparum genome, v29 on PlasmoDB
+Replace all instances of "/net/noble/vol1/data/reference_genomes/pfal3D7-PlasmoDBv29/PlasmoDB-29_Pfalciparum3D7_Genome.fasta" with the path to your local copy of the P. falciparum genome, v29 on PlasmoDB
 
 
 
