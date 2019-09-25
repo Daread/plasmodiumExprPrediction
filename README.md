@@ -10,6 +10,12 @@ Also, all feature values in these files are not converted to z scores. Our analy
 
 Finally, "modelData" includes a text file detailing the train/test splits. For each stage, it lists the chromosomes that were used to form each of the five folds of data, as well as the rows corresponding to those folds (there are some differences of 1 gene between stages, due to the need to discard genes where at least one feature was unavailable at a particular gene). The rows correspond to the csv files attached, starting counting at 0. The "test folds" are the two folds that were used for final predictions of model accuracy (and which we never used during model development, up until the final stage of model evaluation). The three "training folds" were sub-divided into training/validation for cross-validation during preliminary analysis.
 
+## Intermediate Files
+
+Under "processedData" we have uploaded .bedgraph files for processed MNase and ChIP-Seq data, organized by publication source. We have included both the log(fold-change) bedgraph tracks that were used for our analysis, as well as the corresponding data before background normalization. 
+
+The pre-normalization data from Jiang et al (five ChIP-Seq tracks for histone modifications) are large bam files and are hosted at https://noble.gs.washington.edu/proj/readEtAl2019_Files/. Please reach out if there are any problems accessing the data (Corresponding author: Bill Noble, wnoble@uw.edu).
+
 ## Data Processing
 Additional files in this repository represent the code used to process data and carry out analysis in "Predicting gene expression in the human malaria parasite Plasmodium falciparum"
 
